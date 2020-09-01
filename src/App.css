@@ -1,0 +1,707 @@
+html{
+  margin: 0;
+  padding:0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App{width: 100%!important}
+body{
+  background-color: #f3f3f3;
+  overflow-x: hidden!important;
+ color:#f6f7f8
+
+}
+.errorPage{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/friendme-8be4c.appspot.com/o/3819740.jpg?alt=media&token=1bb31c05-8fb7-4a62-9f0a-7025b211da9b");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.CardContent{  
+  padding: 0px 16px 4px 16px!important;
+}
+.CardActions{
+  width:96%;
+  margin-left:2%;
+  padding: 0px 8px;
+}
+.CardHeader{
+  width:96%;
+  margin-left:2%;
+  padding: 16px 16px 7px;
+}
+.aboutSpan{
+  font-weight: 900;
+  
+}
+a{
+  color:black!important;
+}
+a:hover{
+  color:black!important;
+  text-decoration:none;
+}
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap);
+
+/*container margin*/
+.container{
+  margin: 50px auto 0 auto;
+  margin: 50px 0px 0 0px;
+  min-width:100%;
+  padding-right: 9px;
+  padding-left: 9px;
+  
+}
+.signLoginLogo{
+  width:65px;
+}
+.AboutSection{
+  /*height:100vh;
+  overflow-y: auto;*/
+}
+/*
+Come back incase
+.nav-container{
+  margin: auto;
+}*/
+/* come abck for erros*/
+.MuiChip-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  background-color:transparent;
+}
+.MuiChip-outlined:hover{ 
+  background-color: white;
+}
+.card-video{
+  height:290px;
+}
+/*Profile picture*/
+.profile-large-1 {
+  width: 100%;
+  height: 100%;
+}
+.postLinks{
+    color: black;
+    background-color: rgb(238, 238, 238);
+    padding: 2px 3px 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    color:rgb(59, 59, 255)!important;
+}
+.postLinks:hover{
+  color: blue!important;
+  box-shadow:0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
+}
+.profile-desktop{
+  
+}
+/* Todo change this when in problem  in the the future*/
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Margin top for the the Ui*/
+.MuiCard-root {
+  overflow: hidden;
+  margin-top: 1vh;
+}
+/*Profile Cover */
+.profile-cover{
+  width: 100%;
+  height: 77%;
+}
+/*DEsign for much nicer look*/
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+   
+}
+/* Figure Head*/
+.nav-figureHead{
+  display: none;
+}
+
+.commentTop{ 
+  position: fixed!important;
+  color:black!important;
+ /* margin-top:15%;*/
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}/**
+.postBar{
+  width: 90%;
+  margin-left: 11%;
+}*/
+.postBar{
+  width: 82%;
+  margin-left: 11%;
+}
+
+@media only screen and (min-height: 800px){
+  .commentDialog{ 
+    height: 87%!important;
+  }
+}
+@media only screen and (min-height: 1024px){
+  .commentDialog{ 
+    height: 90%!important;
+  }
+}
+.welcomeText{
+  color:rgb(20, 65, 229)!important;
+  margin-top: 10vh!important;
+}
+.logoImage{
+  height:50px;
+}
+.Navlogo{
+  margin-top:2vh;
+  display:flex
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    margin: 50px auto 0 auto;
+    margin: 50px 0px 0 0px;
+    min-width:100%;    
+   
+  }
+  .MuiDrawer-paperAnchorLeft {
+    left: 0;
+    right: auto;
+    width: 80%;
+}
+  .NavDrawer{
+    width:80%
+  }
+  .CardHeader{
+    width:96%;
+    margin-left:0%;
+    padding: 16px 16px 7px;
+  }
+  .postBar{
+    width: 100%;   
+    margin-left: 0%!important;
+  }
+  .welcomeText{   
+    margin-top:0vh!important;
+  }
+  .commentDialog{ 
+    margin-top: 50px!important;
+    height: 85.5%;
+  }
+  .extras-grid{
+    display: none;
+  }
+  .timelineMarkup{
+    width:100%!important;
+    margin-left:0%!important
+  }
+  .feed-grid{
+    display: none;
+  }
+  .languages{
+    display:none!important;
+  }
+  .MovieDesktop{
+    display: none!important;
+  }
+  .profile-desktop{
+    margin-top:0vh!important;
+    margin: 0 0px!important;
+  }
+}
+.MovieDesktop{
+  font-size: 5.7vh!important;
+}
+.profile-desktop{
+  margin: 0 120px;
+}
+
+.HomeDesktop{
+ 
+}
+
+@media only screen and (max-width: 1000px) {
+  .extras-grid{
+    display: none;
+  }
+  .feed-grid{
+    display: none;
+  }
+ 
+  /*schema     /* height: 62vh; 
+    min-width: 0;
+    height: 100%;
+    margin-top: -186px;
+}*/
+.profile-desktop{
+  margin-top:0vh!important;
+}
+.commentTop{
+ /* margin-top: 18%;*/
+}
+}
+.AboutImage{
+  width:175px!important;
+  height:175px!important;
+  
+}
+.notifyButton{
+  margin-right:10px;
+}
+.Notification{
+  
+}
+@media only screen and (max-width: 400px){
+  .AboutImage{
+    width:155px!important;
+    height:155px!important;
+    transform: translateY(0)!important;
+  }
+}
+@media only screen and (max-width: 340px){
+  .AboutImage{
+    width:125px!important;
+    height:125px!important;
+  /*  transform: translateY(0)!important;*/
+  }
+}
+
+
+
+.MuiCardContent-root {
+  padding: 40px;
+}
+/*Posting timeliene Bar*/
+.avatar-{
+  display:flex;
+}
+.MuiButton-containedPrimary {
+  color: #f6f7f8;
+  background-color: #1976d2;
+  margin-top: 3vh!important;
+}
+
+
+
+/* Post textFeild style*/
+.MuiOutlinedInput-root.Mui-focused 
+.MuiOutlinedInput-notchedOutline {
+    /* border-color: #1976d2; */
+    border-width: 2px;
+    border-color: white!important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: white!important;
+  color:rgb(200, 4, 4)
+}
+
+/*Comment -Section*/
+@media only screen and (min-width:800px) {
+  .MuiDialog-paperFullScreen {
+    width: 50%!important;
+    height: 100%;
+    border-radius: 0;
+  }
+  .commentTop{
+   /* margin-top: 4%!important;
+   width top */
+    width: 50%!important;
+    /* min-width: 51%; */
+    right: auto!important;
+}
+
+.inputBar {
+  top: 'auto'!important;
+  bottom: 0!important;
+  width: 50%!important;
+  right: auto!important;
+}
+}
+.commentDialog{
+  margin-top:64px;
+  height: 82.2%;
+}
+/*
+.timelineMarkup{
+  width:90%;
+  
+  margin-left: 11%;
+}*/
+.timelineMarkup{
+  width: 82%;
+  margin-left: 11%;
+}
+.inputBar{
+  top: auto!important;
+  bottom: 0!important;
+ background:white!important;
+ position: fixed!important;
+}
+.rightBar{
+  position: fixed!important;
+  overflow-y:auto!important;
+  height:90vh;
+  /*padding: 0 50px 0 100px;*/
+ 
+}
+.weatherList{
+  padding:0!important;
+}
+
+.left-text{
+  font-size: 2.3vh!important;
+  font-weight:600!important;
+  letter-spacing: 0.5px!important;
+  font-family:"Roboto", sans-serif!important;
+}
+
+.left-scroll{
+  height:82vh!important;
+  overflow-y:auto!important;
+  padding: 0 38px 0 0!important;
+}
+.left-scroll::-webkit-scrollbar {
+  width: 7px;
+
+} 
+.rightBar::-webkit-scrollbar {
+  width: 5px;
+
+} 
+.left-scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+visibility: hidden
+}
+.left-scroll:hover::-webkit-scrollbar-track {
+  visibility: visible;
+
+}
+.left-scroll::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 12px;
+  visibility: hidden;
+}
+.left-scroll:hover::-webkit-scrollbar-thumb {
+  visibility:visible;
+}
+
+.dicoverList::-webkit-scrollbar {
+  width: 7px;
+
+} 
+.dicoverList::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+visibility: hidden
+}
+.dicoverList:hover::-webkit-scrollbar-track {
+  visibility: visible;
+
+}
+.dicoverList::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 12px;
+  visibility: hidden;
+}
+.dicoverList:hover::-webkit-scrollbar-thumb {
+  visibility:visible;
+}
+
+
+.hourly{
+  width:100%;
+  display: flex;
+  overflow-x:auto;
+}
+.hoursWeather{
+ list-style: none;
+ font-size: 2vh;
+}
+li{
+  list-style:none;
+}
+.covid-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hourly::-webkit-scrollbar {
+  width: 2px!important;
+
+} 
+
+.welcomePageImage{
+  display:none;
+}
+.image-container{
+  background-image: url(images/5914-min-min-min.jpg);
+  background-repeat: no-repeat;
+  height:70vh;
+  
+  background-size: cover;
+}
+.rightBar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+visibility: hidden
+}
+.left-scroll:hover::-webkit-scrollbar-track {
+  visibility: visible;
+
+}
+.rightBar::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 12px;
+  visibility: hidden;
+}
+.rightBar:hover::-webkit-scrollbar-thumb {
+  visibility:visible;
+}
+.rightBar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+visibility: hidden
+}
+
+
+.left-scroll:hover::-webkit-scrollbar-track {
+  visibility: visible;
+
+}
+.hourly::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 12px;
+  visibility: hidden;
+}
+.hourly:hover::-webkit-scrollbar-thumb {
+  visibility:visible;
+}
+.dailyIcons{
+  display: flex;
+}
+.playlist-card{
+  height:250px;
+}
+.arerImage{
+  height:200px;
+  width:200px;
+}
+.discoverCard{
+  max-width:300px;
+  height:300px;
+}/*
+.movie-title{
+  font-size:2.2vh!important;
+  font-weight:600!important;
+  font-family: "Roboto", sans-serif;
+}*/
+.dicoverList{
+  display: flex;
+  list-style:none;
+  overflow-x: auto;
+  padding: 0;
+}
+.dicoverList li{
+  padding: 0 7px 0 7px;
+}
+
+.discovered{
+  
+}
+.MovieBar{
+ /* background:rgb(68, 67, 67)!important;*/
+  align-self:flex-end;
+  background:white!important;
+}
+/*
+.Movie-tittle{
+font-size:5.7vh!important;
+font-weight:500;
+color:rgb(255, 255, 255);
+font-family: 'Roboto', sans-serif!important;
+}*/
+.small-info{
+ width:fit-content;
+ font-size: 2vh;
+ /*color:rgb(223, 223, 223)!important;*/
+margin-top:-3vh;
+padding-left: 24px;
+
+}
+.posterImage{
+  height:200px;
+  width:200px;
+}
+.posterSearchImage{
+  height:200px;
+}
+.MovieBack-button{
+  margin-left:auto!important;
+}
+.info-divider{
+  padding: 3px!important;
+  background-color: rgb(163, 162, 162)!important;
+}
+#openPopup:focus {
+  outline: none;
+}
+button:focus {
+  outline:none!important;
+  /* outline: 5px auto -webkit-focus-ring-color; */
+}
+.wholeMovieCard{
+margin-top: 86px;
+overflow-y:auto!important;
+}
+.MovieInfoCard{
+  height:290px;
+ 
+}
+.MovieImage{
+  height:300px!important;
+}
+.Movietrailer{
+  height:170px!important
+}
+.media{
+  height:400px
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+ .profilePhotos{
+   width:100px;
+   height:100px;
+ }
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.movie-narrate{
+  font-size: 2.3vh;
+  font-family:"Roboto", sans-serif;
+  color:black;
+}
+.genres-span{
+  padding:3px;
+}
+.video-card{
+  font-size: 3vh;
+}
+.card-image{
+  height:350px;
+  padding-top:56.25%;
+}
+.card-image2{
+  height:350px;
+  padding-top:36.25%;
+  margin-top:2vh
+}
+@media only screen and (max-width: 600px) {
+  .card-image{
+    height:360px;
+    padding-top:56.25%;
+  }
+  .card-image2{
+    height:360px;
+    padding-top:36.25%;
+    margin-top:2vh
+  }
+  .wholeMovieCard{
+    margin-top: 78px!important;
+    overflow-y:auto!important;
+    }
+  .info-divider{
+    height: 2vh!important;
+    background-color: rgb(163, 162, 162)!important;
+  }
+  .discoverCard{
+    height:230px!important;
+   
+  }
+  
+  .movie-title{
+    font-size:2vh!important;
+  }
+  .posterImage{
+    height:150px;
+    width:150px;
+  }
+  .small-info{
+    width:fit-content;
+    font-size: 1.5vh;
+    color:rgb(223, 223, 223);
+    margin-top: -2vh!important;
+    padding-left: 15px!important;
+   
+   }
+   .Movie-tittle{
+     font-size: 3vh!important;
+   }
+}
+.img-fluid{
+  width:390px!important;
+  height:280px!important;
+  transition: all 0.3s ease-in-out;
+}
+.img-fluid:hover{
+  transform: scale(1.019);
+}
+.postBody{
+  font-weight:600!important;
+}
+#box{
+  padding-right: 1px!important;
+    padding-left: 1px!important;
+    padding-top:2px!important;
+}
+.duration{
+font-family: "Poppins",sans-serif;
+padding: 0 6px 0 0;
+}/*
+
+
+.genres{
+  font-family: "Poppins",sans-serif;
+padding: 0 0 0 6px;
+}*/
+.release-date{
+  font-family: "Poppins",sans-serif;
+padding: 0 0 0 6px;
+}
+.languages{
+  display:flex;
+  font-size: 2vh;
+ color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.upper-scema{
+  font-size: 3.7vh;
+  font-family:"Poppins",sans-serif;
+  color:rgb(49, 49, 49);
+  font-weight: 600;
+}
+.reales-date{
+  font-size: 2.5vh;
+  font-weight: 500;
+  color:rgb(15, 69, 177);
+}
+.production-country{
+  font-size: 2.5vh;
+  font-weight: 500;
+  color:rgb(15, 63, 160);
+}
+
+.SearchedMoviesImage{
+  height:200px;
+}
+.searchContainer{
+  margin-top: 2vh;
+}
